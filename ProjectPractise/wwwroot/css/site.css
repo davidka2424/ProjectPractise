@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #808080;
+    front-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 80%;
+    padding: 15px 10%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    border-bottom: 2px solid #000;
+}
+
+header.logo {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+    header nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+
+
+header nav a::after hover {text-decoration: underline}
+
+main {
+    width: 80%;
+    padding 15px 10%;
+    margin: 50px 0;
+}
+
+    main b {
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+main label{
+    width: 100%;
+    padding 10 px;
+    display: block;
+}
+
+
+    main input:not([type = "submit"]){
+        width: 90%;
+        padding: 10px 14px;
+        font-size:14px;
+        border-radius: 5px;
+        outline: none;
+        margin-top: 7px;
+    }
+        
+        main input:not([type ="submit"]):focus{
+            border: 1px solid #ff0000;
+        }
+    main input[type="submit"] {
+        width: 40%;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 0;
+        margin-top: 7px;
+        background: #ffffff;
+        font-weight: bold;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    main form span {
+        color: #333;
+        font-weight: bold;
+        display: block;
+        margin: 5px 0;
+    }
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    color: #ffffff;
+    background: #333;
+    border-top: 2px solid #000;
+}
+
+#map {
+    height: 400px;
+}
+
+.my-row {
+    text-align: center;
+    color: #ffffff;
+}
+
+

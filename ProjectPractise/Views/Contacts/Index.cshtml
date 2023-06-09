@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Карта";
+}
+
+<h1>Где же всё это находится?</h1>
+<tr class="my-row">
+    <td>Где же всё это находится?</td>
+</tr>
+
+<head>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU" type="text/javascript"></script>
+</head>
+
+<div id="map" style="width: 120%; height: 600px;"></div>
+
+<script type="text/javascript">
+    ymaps.ready(init);
+    function init() {
+        var myMap = new ymaps.Map("map", {
+            center: [56.8440149548581, 60.65412904426402], // координаты центра карты
+            zoom: 20 // уровень масштабирования
+        });
+
+    };
+
+
+</script>
+
+
